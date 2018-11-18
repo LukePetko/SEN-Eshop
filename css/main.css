@@ -112,29 +112,102 @@ footer p
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 34vw;    
+    height: 33.5vw;    
 }
 
 .product-long, .product-short, .name
 {
-    height: 32vw;
+    height: 32.5vw;
+    background-color: rgb(245, 245, 245);
 }
+
+
+
+
+
+
 
 .product-long
 {
-    width: 64%;
- 
-    outline: 1px solid red;
+    width: 65.5%;
 }
+
+.product-long a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-long-image-section, .product-long-section
+{
+    width: 50%;
+}
+
+.product-long-image-section 
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-long-image-section img
+{
+    height: 85%;
+    width: 85%;
+}
+
+.product-long-section p
+{
+    height: 80%;
+    outline: 1px solid red; 
+    overflow: scroll; 
+}
+
+.product-long-section h3
+{
+    height: 10%;
+    text-align: center;
+}
+
+
+
+
+
 
 .product-short
 {
-    width: 32%;
- 
-    outline: 1px solid red;
+    width: 32.5%;
+}
+
+.product-short a
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.product-short a .product-image
+{
+    width: 85%;
+    height: 85%;
+}
+
+.product-short a .product-logo
+{
+    width: 80%;
+    height: 80%;
 }
 
 .name
 {
-    width: 32%;
+    width: 32.5%;
 }
