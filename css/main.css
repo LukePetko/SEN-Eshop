@@ -83,7 +83,7 @@ footer p
 {
     position: fixed;
     width: 100%;
-    height: 35px;
+    height: 4vh;
 
     top: 0;
 
@@ -97,7 +97,9 @@ footer p
 {
     display: inline-block;
 
-    padding: 7px 50px;
+    padding: 0.45% 3%;
+
+    font-size: 2vh;
 }
 
 #content
@@ -106,14 +108,16 @@ footer p
     margin-top: 55px; 
 }
 
-#top
+.body
 {
     display: flex;
     flex-direction: column;
 
+
+    padding-bottom: 3%;
 }
 
-#top > div
+.body > div
 {
     display: flex;
     flex-direction: row;
@@ -130,10 +134,45 @@ footer p
 .name
 {
     height: 32.5vh;
+    width: 33%;
+}
+
+.name img
+{
+    position: relative;
+    width: 85%;
+
+
+    padding-left: 35%;
+    padding-top: -10%;
+
+    z-index: -1000;
+
+
+}
+
+.name h2
+{
+    position: absolute;
+
+    width: inherit;
+
+    text-align: center;
+    font-size: 6.5vh;
+
+    z-index: -999;
 }
 
 
+.name .logo
+{
+    position: relative;
 
+    width: 50%;
+
+    margin-top: 25%;
+    margin-left: -7.5%;
+}
 
 
 
@@ -148,7 +187,6 @@ footer p
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
 }
 
 .product-long-image-section, .product-long-section
@@ -161,32 +199,54 @@ footer p
     display: flex;
     flex-direction: column;
     height: 100%;
+    height: 80%;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5%;
+
+    /*outline: 1px solid red;*/
 }
 
 .product-long-image-section img
 {
     height: 85%;
     width: 85%;
+    /*outline: 1px solid red;*/
+}
+
+.product-long-section
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    /*outline: 1px solid red;*/ 
+
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 
 .product-long-section p
 {
-    height: 75%;
-    outline: 1px solid red; 
-    overflow: scroll; 
+    height: 60%;
+    /*outline: 1px solid red;*/ 
+    overflow: hidden; 
 
+    margin-top: -10%;
+    margin-bottom: 10%;
 
-    font-size: 15pt;
+    font-size: 3.25vh;
 }
 
 .product-long-section h3
 {
-    height: 10%;
+    height: 20%;
     text-align: center;
 
-    font-size: 20pt;
+    /*outline: 1px solid red;*/ 
+
+
+    font-size: 6.5vh;
 }
 
 
@@ -211,7 +271,39 @@ footer p
 
 }
 
-.product-short a .product-image
+.product-short-section
+{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    /*outline: 1px solid red;*/
+
+    font-size: 3.5vh;
+
+}
+
+.product-short-image-section 
+{
+    display: flex;
+    height: 80%;
+    widows: 80%;
+    justify-content: space-around;
+    align-items: center;
+
+    /*outline: 1px solid red;*/
+}
+
+.product-short-image-section img
+{
+    height: 100%;
+    width: 100%;
+    /*outline: 1px solid red;*/
+}
+
+/* .product-short a .product-image
 {
     width: 85%;
     height: 85%;
@@ -221,7 +313,7 @@ footer p
 {
     width: 80%;
     height: 80%;
-}
+} */
 
 .name
 {
@@ -269,4 +361,15 @@ h6
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+
+.reverse
+{
+    flex-direction: row-reverse;
+}
+
+.normal
+{
+    flex-direction: row;
 }

@@ -29,8 +29,8 @@
     </nav>
     <nav id = "top-nav">
         <a href="#top">top.</a>
-        <a href="">macbook.</a>
-        <a href="">imac.</a>
+        <a href="#macbook">macbook.</a>
+        <a href="">mac.</a>
         <a href="">ipad.</a>
         <a href="">iphone.</a>
         <a href="">apple watch.</a>
@@ -40,36 +40,116 @@
 
     <div id = "content">
 
-        <div id = "top">
+        <div id = "top" class = "body">
             <div>
                 <div class = "name">
-                    <p>logo <br> logo</p>
-                        <p>iShop</p>
+                    <h2>iShop</h2>
+                    <img src="img/bg/logo.png" class = "logo" alt="Logo">
                 </div>
                 <div class = "product-long">
-                    <a class = "pop">
+                    <a class = "pop"  class = "normal">
                         <div class = "product-long-image-section">
                             <img src="/img/iphone_xs/01.png" alt="iPhone XS">                   
                         </div>
                         <div class = "product-long-section">
                             <h3>iphone xs</h3>
-                            <p>Super Retina, špeciálne navrhnutá obrazovka iPhonu XS má HDR, dokonale temnú čiernu a najvernejšie podanie farieb na trhu OLED displejov. iPhone XS je skonštruovaný z mimoriadnych materiálov. Má vôbec to najodolnejšie sklo na smartphone. Prichádza s nádhernou novou zlatou, s precízne spracovaným rámčekom z chirurgickej ocele a má vyššiu odolnosť proti vode a prachu. Sklenená zadná strana umožňuje iPhone XS nabíjať bezdrôtovo a ešte rýchlejšie než iPhone X. Pozri sa na svoj iPhone XS, keď miesto hesla používaš svoju tvár, všetko bude jednoduchšie. Jedným pohľadom iPhone odomkneš, prihlásiš sa do aplikácií a k účtom...</p>                    
+                            <p>Super Retina, špeciálne navrhnutá obrazovka iPhonu XS má HDR, dokonale temnú čiernu a najvernejšie podanie farieb na trhu OLED displejov. iPhone XS je skonštruovaný z mimoriadnych materiálov...</p>                    
                         </div>
                     </a>
                 </div>
             </div>
             <div>
                 <div class = "product-long">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis illum adipisci doloremque sit quae dolore perferendis minima esse officia quis repudiandae at laborum eum, suscipit hic sed? Maxime, eligendi!</p>
+                    <a class = "pop"  class = "reverse">
+                        <div class = "product-long-image-section">
+                            <img src="/img/ipad_pro/01.png" alt="iPad Pro">                   
+                        </div>
+                        <div class = "product-long-section">
+                            <h3>ipad pro</h3>
+                            <p>iPad Pro s obrazovkou cez celú plochu je ako čarovné sklo, na ktorom urobíš všetko,čo potrebuješ. Nech ho držíš akokoľvek a ovládanie novými intuitívnymi gestami je tak jednoduché...</p>                    
+                        </div>
+                    </a>
                 </div>
                 <div class = "product-short">
                     <a class = "pop">
-                        <p>apple watch series 4</p>                 
-                        <img src="/img/apple_watch_4/01.png" class = "product-image" alt="Apple Watch Series 4">
+                        <div class = "product-short-section">
+                            <h3>apple watch series 4</h3>
+                        </div>
+                        <div class = "product-short-image-section">                 
+                            <img src="/img/apple_watch_4/01.png" class = "product-image" alt="Apple Watch Series 4">
+                        </div>
                     </a>
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+        <div id = "macbook" class = "body">
+            <div>
+                <div class = "product-long">
+                    <a class = "pop"  class = "reverse">
+                        <div class = "product-long-image-section">
+                            <img src="/img/macbook_pro_13_1/01.png" alt="MacBook Pro 13''">                   
+                        </div>
+                        <div class = "product-long-section">
+                            <h3>macbook pro</h3>
+                            <p>Silnejší, výkonejší a profesionálnejší. Nový MacBook Pro vychádza z prevratných nápadov. A čaká len na tie tvoje. MacBook Pro s procesom Intel Core ôsmej generácie dostáva výpočtový výkon úplne inam...</p>                    
+                        </div>
+                    </a>
+                </div>
+                
+                <div class = "name">
+                    <h2>macbook.</h2>
+
+                    <img src="img/bg/macbook.png" alt="MacBook Background">
+                </div>
+            </div>
+
+
+            
+            <div>
+                
+                <div class = "product-short">
+                    <a class = "pop">
+                        <div class = "product-short-section">
+                            <h3>new macbook air</h3>
+                        </div>
+                        <div class = "product-short-image-section">                 
+                            <img src="/img/macbook_air_new/01.png" class = "product-image" alt="New MacBook Air">
+                        </div>
+                    </a>
+                </div>
+
+                <div class = "product-short">
+                    <a class = "pop">
+                        <div class = "product-short-section">
+                            <h3>macbook</h3>
+                        </div>
+                        <div class = "product-short-image-section">                 
+                            <img src="/img/macbook/01.png" class = "product-image" alt="MacBook">
+                        </div>
+                    </a>
+                </div>
+
+                <div class = "product-short">
+                    <a class = "pop">
+                        <div class = "product-short-section">
+                            <h3>macbook air</h3>
+                        </div>
+                        <div class = "product-short-image-section">                 
+                            <img src="/img/macbook_air_old/01.png" class = "product-image" alt="Old MacBook Air">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
 
     </div>
 
