@@ -30,10 +30,16 @@ html, body
     padding: 0, 0, 0, 0;
 }
 
+body
+{
+    background-color: rgb(245, 245, 245);
+}
+
 a 
 {
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 footer
@@ -115,10 +121,15 @@ footer p
     height: 33.5vw;    
 }
 
-.product-long, .product-short, .name
+.product-long, .product-short
 {
     height: 32.5vw;
-    background-color: rgb(245, 245, 245);
+    background-color: white;
+}
+
+.name
+{
+    height: 32.5vh;
 }
 
 
@@ -162,15 +173,20 @@ footer p
 
 .product-long-section p
 {
-    height: 80%;
+    height: 75%;
     outline: 1px solid red; 
     overflow: scroll; 
+
+
+    font-size: 15pt;
 }
 
 .product-long-section h3
 {
     height: 10%;
     text-align: center;
+
+    font-size: 20pt;
 }
 
 
@@ -210,4 +226,47 @@ footer p
 .name
 {
     width: 32.5%;
+}
+
+
+.popup
+{
+    display: none;
+
+    position: relative;
+
+    z-index: 1000;
+}
+
+.popup-bg
+{
+    position: fixed;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    filter: blur(1px);
+
+}
+
+.popup-fg
+{
+    position: fixed;
+    width: 70%;
+    height: 70%;
+    
+    left: 15%;
+    top: 15%;
+
+    background-color: white;
+}
+
+h6
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
