@@ -3,7 +3,7 @@ $(document).ready(function () {
         $(".popup").show();
     })
 
-    $("h6").click(function(){
+    $(".cross").click(function(){
         $(".popup").hide();
     })
 })

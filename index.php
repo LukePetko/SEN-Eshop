@@ -15,7 +15,7 @@
         <div class = "popup-bg"></div>
         <div class = "popup-fg">
             <p>ja som pop-up</p>
-            <h6>c</h6>
+            <img src="img/ui/cross.png" class = "cross" alt="Cross">
         </div>
     </div>
 
@@ -27,7 +27,7 @@
         <a href="">kontakt.</a>
         <a href="">košík.</a>
     </nav>
-    <nav id = "top-nav">
+    <!-- <nav id = "top-nav">
         <a href="#top">top.</a>
         <a href="#macbook">macbook.</a>
         <a href="">mac.</a>
@@ -36,7 +36,7 @@
         <a href="">apple watch.</a>
         <a href="">apple tv.</a>
         <a href="">príslušenstvo.</a>
-    </nav>
+    </nav> -->
 
     <div id = "content">
 
@@ -222,15 +222,66 @@
         </div>
         
 
+        <div id = "ipad" class = "body">
+            <div>
+                <div class = "product-long">
+                    <a class = "pop"  class = "reverse">
+                        <div class = "product-long-image-section">
+                            <img src="/img/ipad_pro/01.png" alt="iPad Pro">                   
+                        </div>
+                        <div class = "product-long-section">
+                            <h3>ipad pro</h3>
+                            <p>iPad Pro s obrazovkou cez celú plochu je ako čarovné sklo, na ktorom urobíš všetko,čo potrebuješ. Nech ho držíš akokoľvek a ovládanie novými intuitívnymi gestami je tak jednoduché...</p>                    
+                        </div>
+                    </a>
+                </div>
+                
+                <div class = "name">
+                    <h2>ipad</h2>
+
+                    <img src="img/bg/ipad.png" class = "ipad-category" alt="MacBook Background">
+                </div>
+            </div>
+
+
+            
+            <div>
+                
+                <div class = "product-short">
+                    <a class = "pop">
+                        <div class = "product-short-section">
+                            <h3>iPad Mini</h3>
+                        </div>
+                        <div class = "product-short-image-section">                 
+                            <img src="/img/ipad_mini/01.png" class = "product-image" alt="iPad mini">
+                        </div>
+                    </a>
+                </div>
+
+                <div class = "product-long">
+                    <a class = "pop"  class = "reverse">
+                        <div class = "product-long-image-section">
+                            <img src="/img/ipad/01.png" alt="iPad">                   
+                        </div>
+                        <div class = "product-long-section">
+                            <h3>ipad</h3>
+                            <p>Vyrovná sa počítaču, no jemu sa nič nevyrovná. Nový 9.7" iPad teraz prichádza s podporou Apple Pencil. Nový iPad má skvelý retina displej, suverénný výkon a aplikácie s ktorými môžeš robiť všetko, čo ťa baví...</p>                    
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
 
 
     </div>
 
-    <footer>
+    <!--<footer>
         <p>
             Toto nie je pravý eshop. pre viac informácií klinki <a>sem.</a>
         </p>
-    </footer>
+    </footer> -->
 
 
 
