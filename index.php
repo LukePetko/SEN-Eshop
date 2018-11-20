@@ -147,12 +147,22 @@
                     </a>
                 </div>
             </div>
-            
+        </div>
+
+
+
+
+        <div id = "mac" class = "body">
             <div>
+                <div class = "name">
+                    <h2>iMac</h2>
+
+                    <img src="img/bg/imac.png" class = "imac-category" alt="Mac Background">
+                </div>
                 <div class = "product-long">
                     <a class = "pop"  class = "normal">
                         <div class = "product-long-image-section">
-                            <img src="treba doplnit" alt="iMac Pro">                   
+                            <img src="img/imac_pro/01.png" alt="iMac Pro">                   
                         </div>
                         <div class = "product-long-section">
                             <h3>iMac Pro</h3>
@@ -160,28 +170,13 @@
                         </div>
                     </a>
                 </div>
-                <div class = "name">
-                    <h2>iMac</h2>
-
-                    <img src="treba doplnit Mac " alt="Mac Background">
-                </div>
             </div>
             
             <div>
-                <div class = "product-short">
-                    <a class = "pop">
-                        <div class = "product-short-section">
-                            <h3>iMac 21</h3>
-                        </div>
-                        <div class = "product-short-image-section">                 
-                            <img src="treba doplnit - iMac 21" class = "product-image" alt="iMac 21">
-                        </div>
-                    </a>
-                </div>
                 <div class = "product-long">
                     <a class = "pop"  class = "normal">
                         <div class = "product-long-image-section">
-                            <img src="treba doplnit - iMac 27" alt="iMac 27">                   
+                            <img src="img/imac_27/01.png" alt="iMac 27">                   
                         </div>
                         <div class = "product-long-section">
                             <h3>iMac 27</h3>
@@ -189,13 +184,33 @@
                         </div>
                     </a>
                 </div>
+                <div class = "product-short">
+                    <a class = "pop">
+                        <div class = "product-short-section">
+                            <h3>iMac 21</h3>
+                        </div>
+                        <div class = "product-short-image-section">                 
+                            <img src="img/imac_21/01.png" class = "product-image" alt="iMac 21">
+                        </div>
+                    </a>
+                </div>
             </div>
             
             <div>
+                <div class = "product-short">
+                    <a class = "pop">
+                        <div class = "product-short-section">
+                            <h3>Mac Mini</h3>
+                        </div>
+                        <div class = "product-short-image-section">                 
+                            <img src="img/mac_mini/01.png" class = "product-image" alt="Mac Mini">
+                        </div>
+                    </a>
+                </div>
                 <div class = "product-long">
                     <a class = "pop"  class = "normal">
                         <div class = "product-long-image-section">
-                            <img src="treba doplnit mac pro" alt="Mac Pro">                   
+                            <img src="img/mac_pro/01.png" alt="Mac Pro">                   
                         </div>
                         <div class = "product-long-section">
                             <h3>Mac Pro</h3>
@@ -203,19 +218,9 @@
                         </div>
                     </a>
                 </div>
-                <div class = "product-short">
-                    <a class = "pop">
-                        <div class = "product-short-section">
-                            <h3>Mac Mini</h3>
-                        </div>
-                        <div class = "product-short-image-section">                 
-                            <img src="treba doplnit Mac Mini" class = "product-image" alt="Mac Mini">
-                        </div>
-                    </a>
-                </div>
             </div>
-        
         </div>
+        
 
 
 
