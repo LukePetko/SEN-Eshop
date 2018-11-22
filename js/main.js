@@ -1,9 +1,11 @@
-$(document).ready(function () {
-    $(".pop").click(function(){
-        $(".popup").show();
-    })
+$(function () {
 
-    $(".cross").click(function(){
-        $(".popup").hide();
-    })
-})
+    var $body = $(document);
+    $body.bind('scroll', function () {
+        // "Disable" the horizontal scroll.
+        if ($body.scrollLeft() !== 0) {
+            $body.scrollLeft(0);
+        }
+    });
+
+}); 
